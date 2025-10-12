@@ -8,5 +8,17 @@ let userId=334455.3;
 userId.toFixed();
 //boolean
 let isLoggedIn:boolean=false;
+//any
+// let hero:any;
+// function getHero(){
+//     return "thor";
+// }
+// hero=getHero();
+//or
+let hero:any;
+function getHero(){
+    return true;
+}
+hero=getHero();
 
 export{}
