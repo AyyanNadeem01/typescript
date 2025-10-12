@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",                  // Modern browser JS
+    "module": "esnext",               // Use ES modules, not CommonJS
+    "outDir": "./dist/",               // Compiled JS goes here
+    "rootDir": "./src",               // Your .ts files live here
+    "sourceMap": true,                // Helpful for debugging
+    "strict": true,                   // Best practice
+    "moduleDetection": "force",       
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
